@@ -27,7 +27,11 @@ body{
 .img img{
     height: 42px;
     user-select: none;
+    background: transparent;
     object-fit: cover;
+}
+img{
+    background: transparent;
 }
 .head h1{
     padding-top: 12px;
