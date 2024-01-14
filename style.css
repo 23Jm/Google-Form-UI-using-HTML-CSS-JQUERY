@@ -30,9 +30,6 @@ body{
     background: transparent;
     object-fit: cover;
 }
-img{
-    background: transparent;
-}
 .head h1{
     padding-top: 12px;
     color: #202124;
