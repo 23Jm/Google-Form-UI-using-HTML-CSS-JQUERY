@@ -1,13 +1,11 @@
-$(document).ready(function(){
-    $(".input-field").focusout(function(){
-        //make floating label more accurate
-        var value=$(this).val();
-        if(value==="")
-         {
-            $(this).removeClass('has-value');
-         }
-         else{
-            $(this).addClass("has-value");
-         }
-    })
-})
+$(document).ready(function () {
+  $(".input-field").focusout(function () {
+    // Make Floating Label More Accurate
+    var inputValue = $(this).val();
+    if (inputValue === "") {
+      $(this).removeClass("has-value");
+    } else {
+      $(this).addClass("has-value");
+    }
+  });
+});
